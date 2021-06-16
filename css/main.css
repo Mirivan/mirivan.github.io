@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    background: #121212;
+    color: #b7b7b7;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255,255,255,0.8);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgba(255,255,255,0.4);
+}
+
+::-moz-selection { background: green; }
+::selection { background: green; }
+
+.container {
+    height: 100vh;
+}
+
+header h3 {
+    display: flex; 
+    font-weight: 700;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.block p {
+    display: flex;
+}
+
+.block .a {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+}
+
+.block .a li {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    text-align: center
+}
+
+.icon-github-circled:before { content: '\ef09b'; }
+.icon-telegram-circled:before { content: '\ef2c6'; }
